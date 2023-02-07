@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10.2)
-project(prog3_complejidad_algoritmica_v2022_1)
+project(prog3_complejidad_algoritmica_v2023_0)
 
 set(CMAKE_CXX_STANDARD 20)
 if(UNIX AND NOT APPLE)
@@ -20,6 +20,4 @@ if(UNIX AND NOT APPLE)
     find_package(TBB)
     target_link_libraries(${PROJECT_NAME} TBB::tbb)
 endif()
-
-add_subdirectory(autograder)
 

@@ -51,15 +51,6 @@ bool ejercicio_13 (vector<T>& v, Iterator left, Iterator right, T value) {
         return ejercicio_13 (v, std::next(middle), right, value);
 }
 std::string bigO_13();
-//////////////////////////////////////////////
-// Ejercicio #14
-//////////////////////////////////////////////
-vector<string> get_anagrams(string word, string filename);
-
-//////////////////////////////////////////////
-// Ejercicio #15
-//////////////////////////////////////////////
-pair <double, double> get_par_lejano(const vector<double>& data);
 
 
 #endif

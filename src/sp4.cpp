@@ -249,10 +249,3 @@ std::string bigO_13() {
     return result;
 }
 
-vector<string> get_anagrams(string word, string filename) {
-  return vector<string>{};
-}
-
-pair <double, double> get_par_lejano(const vector<double>& data) {
-  return pair<double, double>{};
-}
